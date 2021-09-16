@@ -9,7 +9,7 @@ body {
   background-color: rgb(247, 240, 240);
 }
 
-#covers {
+.covers {
   width: auto;
   margin-bottom: 100px;
   margin-top: 100px;
@@ -159,18 +159,15 @@ body {
   border-radius: 8px;
   color: #6070ff;
   border: none;
-}
-
-.btn__link {
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: #6070ff;
 }
 
-.btn__link:hover {
+.pla__btn:hover {
+  border: 2px solid #396df2;
   text-decoration: underline;
   text-decoration-color: #396df2;
 }
@@ -187,14 +184,6 @@ body {
   border: 1px solid #396df2;
   border-radius: 16px;
   background-color: white;
-}
-
-.see-project:hover {
-  text-decoration: underline;
-  text-decoration-color: #396df2;
-}
-
-.pro__ltr {
   padding: 12px 12px;
   font-family: 'Poppins', sans-serif;
   font-size: 17px;
@@ -203,6 +192,12 @@ body {
   text-decoration: none;
   letter-spacing: 0.03em;
   font-weight: 500;
+}
+
+.see-project:hover {
+  border: 2px solid #396df2;
+  text-decoration: underline;
+  text-decoration-color: #396df2;
 }
 
 .signup-disc {
@@ -361,7 +356,7 @@ body {
 }
 
 .performance {
-  margin-left: 48px;;
+  margin-left: 48px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
