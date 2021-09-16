@@ -135,35 +135,6 @@ body {
   align-self: flex-start;
 }
 
-.icon {
-  margin-right: 1rem;
-}
-
-.fa-twitter {
-  color: #172b4d;
-  font-size: 1.7rem;
-}
-
-.fa-linkedin-in {
-  color: #172b4d;
-  font-size: 1.7rem;
-}
-
-.fa-github-square {
-  color: #172b4d;
-  font-size: 1.7rem;
-}
-
-.fa-medium-m {
-  color: #172b4d;
-  font-size: 1.7rem;
-}
-
-.fa-angellist {
-  color: #172b4d;
-  font-size: 1.7rem;
-}
-
 .grid__wrapper {
   display: grid;
 }
