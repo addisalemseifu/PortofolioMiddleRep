@@ -1,4 +1,4 @@
-# PortofolioMiddleRep
+# Mobile Version ortfolio from Figma
 > This is the 2nd part of the portfolio done depending on "Templet 1" of Figma website. The project is done using five-section tags and sub-tags like div, ul, li, and buttons. The main aim of the project was to duplicate a portfolio file found in Figma. and the duplication process includes replicating all the font styles, font sizes, line heights, box dimensions, and all the margins and padding dimensions.
 
 ## user instruction
@@ -17,36 +17,23 @@ Example of index.html part of the project
 > ![rep2index](https://user-images.githubusercontent.com/65928536/133286134-e227af69-caee-4e0a-b841-62b5ffe37fc2.png)
 Example of style.css part of the project
 ![rep2_style css](https://user-images.githubusercontent.com/65928536/133286850-0b364a5b-d86d-4182-823f-39292e32b7aa.png)
-
-
+Example of the running project
 
 ## Built With
-
 - HTML,CSS
 - git and git hub
 
-
-
-
 ## Authors
-
 👤 Addisalem Seifu
-
 - GitHub: [@addisalemseifu](https://github.com/githubhandle)
 - Twitter: [@Addisalem Seifu](https://twitter.com/twitterhandle)
 - LinkedIn: [addisalem seifu](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
-
 Contributions, issues, and feature requests are welcome!
 
-
 ## Show your support
-
 Give a ⭐️ if you like this project!
 
-
-
 ## 📝 License
-
 This project is [MIT](./MIT.md) licensed.
