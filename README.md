@@ -15,14 +15,12 @@ Then use the following instruction to clone the project and use it.
 
 Example of index.html part of the project
 > ![html1](https://user-images.githubusercontent.com/65928536/133560182-3f71f51a-1b2e-4343-a362-02ca96586daf.png)
-
-
 Example of style.css part of the project
 <<<<<<< HEAD
 ![rep2_style css](https://user-images.githubusercontent.com/65928536/133286850-0b364a5b-d86d-4182-823f-39292e32b7aa.png)
 Example of the running project
 =======
-> ![css1](https://user-images.githubusercontent.com/65928536/133560211-1744f258-f06a-424c-a8a5-d4fc748f7a00.png)
+![running__pro](https://user-images.githubusercontent.com/65928536/133654252-5e276519-d761-46cf-b064-3042bd5e8702.png)
 
 
 >>>>>>> 09c9669cdb2bd0040ef5eced8448de4387849987
