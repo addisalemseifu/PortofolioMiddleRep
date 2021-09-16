@@ -1,4 +1,4 @@
-# Mobile Version ortfolio from Figma
+# Mobile Version Portfolio from Figma
 > This is the 2nd part of the portfolio done depending on "Templet 1" of Figma website. The project is done using five-section tags and sub-tags like div, ul, li, and buttons. The main aim of the project was to duplicate a portfolio file found in Figma. and the duplication process includes replicating all the font styles, font sizes, line heights, box dimensions, and all the margins and padding dimensions.
 
 ## user instruction
