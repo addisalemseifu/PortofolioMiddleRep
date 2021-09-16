@@ -14,9 +14,11 @@ Then use the following instruction to clone the project and use it.
 8. push your code to the remote repository using the command "git push origin <branchName>"
 
 Example of index.html part of the project
-> ![rep2index](https://user-images.githubusercontent.com/65928536/133286134-e227af69-caee-4e0a-b841-62b5ffe37fc2.png)
+> ![html1](https://user-images.githubusercontent.com/65928536/133560182-3f71f51a-1b2e-4343-a362-02ca96586daf.png)
+
+
 Example of style.css part of the project
-![rep2_style css](https://user-images.githubusercontent.com/65928536/133286850-0b364a5b-d86d-4182-823f-39292e32b7aa.png)
+> ![css1](https://user-images.githubusercontent.com/65928536/133560211-1744f258-f06a-424c-a8a5-d4fc748f7a00.png)
 
 
 
