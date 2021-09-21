@@ -156,10 +156,7 @@ body {
 .img__class {
   width: auto;
   height: 220px;
-  margin-left: 16px;
-  margin-right: 16px;
-  margin-top: 16px;
-  margin-bottom: 24px;
+  margin: 16px 16px 24px 16px;
   border-radius: 20px;
 }
 
@@ -268,9 +265,7 @@ body {
 
 .platform {
   width: auto;
-  margin-left: 16px;
-  margin-right: 16px;
-  margin-top: 24px;
+  margin: 24px 16px 0px 16px;
   float: left;
 }
 
@@ -301,10 +296,7 @@ body {
 .see-project {
   width: fit-content;
   height: 68px;
-  margin-left: 16px;
-  margin-right: 16px;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin: 24px 16px;
   text-align: center;
   align-items: center;
   border: 1px solid #396df2;
