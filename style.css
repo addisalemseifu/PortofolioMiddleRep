@@ -826,8 +826,26 @@ body {
   align-self: flex-start;
 }
 
-.input__btn:hover {
+.input__btn:enabled {
+  background-color: white;
   border: 1px solid #396df2;
-  text-decoration: underline;
-  text-decoration-color: #396df2;
+  color: #396df2;
+}
+
+.input__btn:hover {
+  background-color: #396df2;
+  border: 1px solid #396df2;
+  color: white;
+}
+
+.input__btn:active {
+  background-color: #0835a8;
+  border: 1px solid #396df2;
+  color: white;
+}
+
+.input__btn:disabled {
+  background-color: white;
+  border: 1px solid #121213;
+  color: black;
 }
