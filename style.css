@@ -199,10 +199,12 @@ body {
   margin-top: 16px;
   margin-bottom: 24px;
   border-radius: 20px;
+  transition: all .2s ease-in-out;
 }
 
 .img__class:hover {
   border: 2px solid #396df2;
+  transform: scale(1.1);
 }
 
 .bold-text {
@@ -886,3 +888,9 @@ body {
   cursor: not-allowed;
   pointer-events: none;
 }
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> d84961f12732993693e4b0e7233c4296592abde5
