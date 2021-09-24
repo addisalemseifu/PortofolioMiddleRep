@@ -49,6 +49,38 @@ body {
   line-height: 20px;
 }
 
+@keyframes myanimation {
+  0% {
+    background-color: white;
+    top: 0;
+    left: 0;
+  }
+
+  25% {
+    background-color: red;
+    top: 0;
+    left: 200px;
+  }
+
+  50% {
+    background-color: green;
+    top: 200px;
+    left: 200px;
+  }
+
+  75% {
+    background-color: blue;
+    top: 200px;
+    left: 0;
+  }
+
+  100% {
+    background-color: white;
+    top: 0;
+    left: 0;
+  }
+}
+
 .logo:hover {
   text-decoration: underline;
   text-decoration-color: #6070ff;
@@ -80,6 +112,12 @@ body {
   line-height: 52px;
   text-align: left;
   color: #172b4d;
+  position: relative;
+  animation-name: myanimation;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: cubic-bezier(0.26, -0.35, 0.99, 1.54);
 }
 
 .headline:hover {
@@ -301,8 +339,9 @@ body {
 }
 
 .see-project {
+  display: flex;
   width: fit-content;
-  height: 68px;
+  height: 58px;
   margin-left: 16px;
   margin-right: 16px;
   margin-top: 24px;
@@ -311,7 +350,6 @@ body {
   align-items: center;
   border: 1px solid #396df2;
   border-radius: 16px;
-  background-color: white;
   padding: 12px 12px;
   font-family: 'Poppins', sans-serif;
   font-size: 17px;
@@ -320,12 +358,33 @@ body {
   text-decoration: none;
   letter-spacing: 0.03em;
   font-weight: 500;
+  background: #009fff;
+  background: -webkit-linear-gradient(right, #ec2f4b, #009fff); 
+  background: linear-gradient(to right, #ec2b4b, #009fff);
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
 }
 
-.see-project:hover {
-  border: 2px solid #396df2;
-  text-decoration: underline;
-  text-decoration-color: #396df2;
+.see-project::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff1ead;
+  transition: all 0.35s;
+  border-radius: 4px;
+}
+
+.main__btn:hover {
+  color: #ffff;
+}
+
+.main__btn:hover::after {
+  width: 100%;
 }
 
 .signup-disc {
@@ -812,7 +871,6 @@ body {
   margin-bottom: 24px;
   text-align: center;
   align-items: center;
-  border: 1px solid #396df2;
   border-radius: 16px;
   background-color: white;
   padding: 12px 12px;
@@ -828,24 +886,32 @@ body {
 
 .input__btn:enabled {
   background-color: white;
-  border: 1px solid #396df2;
   color: #396df2;
 }
 
 .input__btn:hover {
-  background-color: #396df2;
-  border: 1px solid #396df2;
+  background-color: #6070ff;
   color: white;
 }
 
 .input__btn:active {
-  background-color: #0835a8;
-  border: 1px solid #396df2;
+  background-color: #2230d2;
   color: white;
 }
 
-.input__btn:disabled {
+/*.input__btn:disabled {
   background-color: white;
   border: 1px solid #121213;
   color: black;
+}*/
+
+.input__btn:disabled,
+.input__btn[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+  pointer-events: none;
+
 }
+
