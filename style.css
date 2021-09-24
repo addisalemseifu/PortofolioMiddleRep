@@ -358,33 +358,13 @@ body {
   text-decoration: none;
   letter-spacing: 0.03em;
   font-weight: 500;
-  background: #009fff;
-  background: -webkit-linear-gradient(right, #ec2f4b, #009fff); 
-  background: linear-gradient(to right, #ec2b4b, #009fff);
-  cursor: pointer;
-  position: relative;
-  transition: all 0.35s;
-  outline: none;
+  background-color: white;
 }
 
-.see-project::after {
-  position: absolute;
-  content: '';
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: #ff1ead;
-  transition: all 0.35s;
-  border-radius: 4px;
-}
-
-.main__btn:hover {
-  color: #ffff;
-}
-
-.main__btn:hover::after {
-  width: 100%;
+.see-project:hover {
+  border: 2px solid #396df2;
+  text-decoration: underline;
+  text-decoration-color: #396df2;
 }
 
 .signup-disc {
@@ -899,19 +879,10 @@ body {
   color: white;
 }
 
-/*.input__btn:disabled {
-  background-color: white;
-  border: 1px solid #121213;
-  color: black;
-}*/
-
-.input__btn:disabled,
-.input__btn[disabled]{
-  border: 1px solid #999999;
-  background-color: #cccccc;
-  color: #666666;
+.input__btn:disabled {
+  border: 1px solid #999;
+  background-color: #ccc;
+  color: #665;
   cursor: not-allowed;
   pointer-events: none;
-
 }
-
